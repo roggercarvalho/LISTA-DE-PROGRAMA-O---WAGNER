@@ -2,8 +2,7 @@ def real_para_dolar(valor: float, cotacao: float) -> float:
     real_para_dolar = valor / cotacao
     return real_para_dolar
 
-
-
-def dolar_para_real(valor, cotacao):
+def dolar_para_real(valor: float, cotacao: float) -> float:
     dolar_para_real = valor * cotacao
     return dolar_para_real
+

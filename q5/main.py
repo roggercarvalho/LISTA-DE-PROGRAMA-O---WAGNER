@@ -30,5 +30,4 @@ def main():
     else:
         print("Nenhuma nota foi informada.")
 
-
 main()

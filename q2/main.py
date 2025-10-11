@@ -12,11 +12,13 @@ opcao = int(input("Escolha uma opção (1 ou 2): "))
 if opcao == 1:
     celsius = float(input("Digite a temperatura em Celsius: "))
     resultado = conversor_fahrenheit(celsius)
+    print(f"{celsius} graus Celsius é igual a {resultado:.2f} graus Fahrenheit.")
 elif opcao == 2:
     fahrenheit = float(input("Digite a temperatura em Fahrenheit: "))
     resultado = conversor_celsius(fahrenheit)
+    print(f"{fahrenheit} graus Fahrenheit é igual a {resultado:.2f} graus Celsius.")
 else:
-    print("Opção inválida.")
+    print("Opção inválida.")
 
 
-print (resultado)
+
